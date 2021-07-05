@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5rem;
+    /* font-size: 1.2em; */
+}
+.btn__link{
+background-color: rgb(12, 183, 189);
+color: #fff;
+padding: 20px 20px;
+text-decoration: none;
+}
+
+
+#main-header{
+background-image: url("../images/banner.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 60vh;
+}
+/* Header Start  */
+.header{
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
+.logo{
+
+}
+.logo__brand{
+
+}
+
+/* --- Nav Start ---  */
+#main-nav{
+
+}
+.main-nav__list{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.main-nav__item{
+list-style-type: none;
+padding: 0px 20px;
+
+}
+
+.main-nav__item a{
+text-decoration: none;
+color: black;
+}
+.main-nav__item a:hover{
+
+color: rgb(10, 232, 248);
+}
+#main-nav a.main-nav__active{
+color: rgb(10, 232, 248);
+}
+
+/* ---   Nav End   ---  */
+
+/* Banner Start  */
+#banner{
+width: 40%;
+float: right;
+padding: 10px 30px;
+}
+.banner__title{
+
+}
+.banner__desc{
+padding: 50px 0px;
+
+
+}
+.banner__link{
+
+}
+/* Banner End  */
+/* Header End  */
+
+/* Main Start  */
+/* About Start  */
+#about{
+    text-align: center;
+    padding: 50px 100px;
+width: 100%;
+min-height: 300px;
+/* background-color: #ddd; */
+}
+.about__title{
+
+}
+.about__desc{
+padding: 20px 0px;
+}
+.about__signature{
+
+}
+/* About End  */
+/* work Start  */
+#work{
+background-color: rgb(12, 166, 177);
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 50px 30px;
+color: #fff;
+}
+.work__skills{
+display: flex;
+padding: 20px;
+}
+.work__half{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.work__logo{
+
+}
+.work__count{
+font-weight: bold;
+}
+.work__title{
+padding-top: 10px;
+}
+/* Work End  */
+
+/* Services Start  */
+#services{
+    padding: 50px 30px;
+   display: flex;
+   flex-wrap: wrap;
+justify-content: space-around;
+}
+.services__cat{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+padding: 10px;
+text-align: center;
+}
+.services__logo{
+
+}
+.services__title{
+padding: 10px 0px;
+}
+.services__desc{
+
+}
+/* Services End  */
+/* Contact Start  */
+#contact{
+    align-items: center;
+min-height: 600px;
+background-color: #eee;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+padding: 10px 50px;
+}
+.contact__title{
+
+}
+.contact__desc{
+text-align: center;
+padding: 20px 0px;
+}
+/* Contact End  */
+/* Contact Form Start  */
+.contact__form{
+
+}
+.form__group{
+padding: 20px;
+}
+.form__group input{
+    height: 40px;
+    padding: 10px;
+    width: 100%;
+    border: hidden;
+}
+.form__group textarea{
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+    border: hidden;
+}
+.form__group--name{
+width: 50%;
+float: left;
+}
+
+.form__group--email{
+width: 50%;
+float: left;
+}
+.form__group--title{
+
+}
+.form__group--comment{
+
+}
+.form__group--submit{
+text-align: center;
+}
+.form__group input[type=submit]{
+    padding: 10px;
+    width: 40%;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(13, 201, 235);
+}
+
+/* Contact Form End  */
+/* Main End  */
+
+/* Footer Start  */
+#main-footer{
+display: flex;
+background-color: #333;
+color: #fff;
+justify-content: space-evenly;
+padding: 50px 10px;
+}
+.footer__list{
+max-width: 33%;
+padding: 0px 10px;
+}
+.footer__title{
+
+}
+.footer__desc{
+padding: 20px 00px;
+}
+.footer__email{
+
+}
+.footer__number{
+
+}
+.footer-nav{
+
+}
+.footer-nav__list{
+display: flex;
+flex-direction: column;
+}
+.footer-nav__item{
+list-style-type: none;
+padding: 2px 0px;
+}
+.footer-nav__item a{
+    text-decoration: none;
+color: #fff;
+}
+/* Footer End  */
